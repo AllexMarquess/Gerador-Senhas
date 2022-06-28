@@ -51,3 +51,55 @@ body{
     font-weight: bold;
     font-size: 18px;
 }
+
+.container-passoword{
+    max-width: 480px;
+    margin: 14px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+    color: aliceblue;
+    font-size: 28px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+
+.passoword{
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.40);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #313131;
+    transition: transform 0.5s;
+}
+
+.passoword:hover{
+    transform: scale(1.05);
+}
+
+.tooltip{
+    color: #fff;
+    position: relative;
+    top: 20px;
+    padding: 6px 8px;
+    background: rgb(15, 15,15);
+    text-align: center;
+    font-size: 16px;
+    border-radius: 6px;
+    visibility: visible;
+}
+
+.container-passoword:hover .tooltip{
+    visibility: visible;
+    bottom: 50px;
+    opacity: 1;
+}
