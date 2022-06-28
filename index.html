@@ -12,9 +12,21 @@
 </head>
 <body>
     
-     <h1>testando
-        
-     </h1>
+    <img class="logo" src="./assets/transparent-logo.jpg" alt="gerador de senha logo" />
+    
+    <main class="container-input">
+        <span>Tamanho</span id="valor"><span>Caracteres</span>
+        <input id="slider" class="slider" type="range" min="5" max="25" value="15" /> <!--criando a barra do numero de caracteres-->
+        <button id="button" class="button-cta">Gerar senha</button>
+    </main>
+
+        <div id="container-passoword" class="container-passoword hide">
+        <span class="title">Sua senha gerada foi:</span>
+        <span id="passoword" class="passoword">123123123123</span>
+        <span>Clique na senha para copiar. 👆</span>    
+
+    </div>
+
     <script src="script.js"></script> <!--linkando o javascript com html-->
 </body>
 </html>
