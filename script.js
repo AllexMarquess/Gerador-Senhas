@@ -1,13 +1,13 @@
 
-let SliderElement = document.querySelector("#slider");
-let buttonElement = document.querySelector("#button");
+let SliderElement = document.querySelector('#slider');
+let buttonElement = document.querySelector('#button');
 
-let sizePassword = document.querySelector("#valor");
-let passoword = document.querySelector("#passoword");
+let sizePassword = document.querySelector('#valor');
+let passoword = document.querySelector('#passoword');
 
-let containerPassoword = document.querySelector("#container-passoword");
+let containerPassoword = document.querySelector('#container-passoword');
 
-let charset = "abcdefghijepqrstuvxzy123456789*!@#$%";
+let charset = 'abcdefghijepqrstuvxzy123456789*!@#$%';
 let novasenha = "";
 
 sizePassword.innerHTML = SliderElement.Value;
